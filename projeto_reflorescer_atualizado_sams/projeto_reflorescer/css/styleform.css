@@ -1,0 +1,117 @@
+/* Estilo básico para o formulário */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #d4d8f0; /* Cor de fundo suave */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #232946; /* Cor do texto padrão */
+}
+
+/* Container principal do formulário */
+form {
+    background-color: #fffffe; /* Cor de fundo do card */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px; /* Para o formulário não ficar muito largo */
+}
+
+/* Título do formulário */
+h1 {
+    color: #232946; /* Cor principal para o título */
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Estilo dos rótulos (labels) */
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #232946; /* Cor do texto do label */
+}
+
+/* Estilo dos campos de entrada (input) */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="date"],
+input[type="tel"],
+button {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #b8c1ec; /* Cor do borda no foco */
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+/* Estilo para o botão */
+button {
+    background-color: #eebbc3; /* Cor de fundo do botão */
+    border: none;
+    color: #232946; /* Cor do texto do botão */
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #f895ae; /* Cor mais intensa do botão quando passa o mouse */
+}
+
+/* Validação de erro */
+.error {
+    color: #ff4d4d; /* Vermelho para mensagens de erro */
+    font-size: 14px;
+}
+
+/* Estilo dos campos de texto e áreas de texto */
+textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #b8c1ec; /* Cor de borda suave */
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+    height: 100px;
+}
+
+/* Modo escuro */
+body.dark-mode {
+    background-color: #232946; /* Cor de fundo do modo escuro */
+    color: #fffffe; /* Cor do texto no modo escuro */
+}
+
+body.dark-mode form {
+    background-color: #fffffe; /* Cor de fundo do formulário no modo escuro */
+}
+
+body.dark-mode h1 {
+    color: #fffffe; /* Cor do título no modo escuro */
+}
+
+body.dark-mode input[type="text"],
+body.dark-mode input[type="email"],
+body.dark-mode input[type="password"],
+body.dark-mode input[type="date"],
+body.dark-mode input[type="tel"],
+body.dark-mode button,
+body.dark-mode textarea {
+    border: 1px solid #b8c1ec; /* Borda suave no modo escuro */
+}
+
+body.dark-mode button {
+    background-color: #d4939d; /* Cor do botão no modo escuro */
+    color: #232946; /* Cor do texto do botão */
+}
+
+body.dark-mode button:hover {
+    background-color: #eebbc3; /* Cor mais intensa quando passa o mouse no botão no modo escuro */
+}
