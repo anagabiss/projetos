@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo para o corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #d4d8f0;
+    color: #232946;
+}
+
+/* Cabeçalho com imagem e logo */
+header {
+    text-align: left;
+    background-color: #b8c1ec;
+    padding: 20px 0;
+    color: #232946;
+}
+
+header img {
+    max-width: 150px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+/* Menu de navegação */
+nav {
+    background-color: #232946;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav a {
+    color: #fffffe;
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav a:hover {
+    color: #eebbc3;
+}
+
+/* Área de conteúdo principal */
+.content {
+    padding: 20px;
+    background-color: #fffffe;
+    margin: 20px auto;
+    max-width: 1200px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+}
+
+.content h2, .content h3 {
+    color: #232946;
+}
+
+/* Lista de serviços */
+.content ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.content ul li {
+    color: #232946;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+/* Rodapé */
+footer {
+    background-color: #232946;
+    color: #fffffe;
+    padding: 15px 0;
+    text-align: center;
+    margin-top: 20px;
+}
+
+footer p {
+    font-size: 14px;
+}
+
+.light-mode {
+    background-color: #d4d8f0;
+    color: #232946;
+}
+
+.light-mode header {
+    background-color: #b8c1ec;
+    color: #232946;
+}
+
+.light-mode nav {
+    background-color: #232946;
+}
+
+.light-mode nav a {
+    color: #fffffe;
+}
+
+.light-mode nav a:hover {
+    color: #eebbc3;
+}
+
+.light-mode .content {
+    background-color: #fffffe;
+    color: #232946;
+}
+
+.light-mode footer {
+    background-color: #232946;
+    color: #fffffe;
+}
+
+.dark-mode {
+    background-color: #121629;
+    color: #fffffe;
+}
+
+.dark-mode header {
+    background-color: #232946;
+    color: #fffffe;
+}
+
+.dark-mode nav {
+    background-color: #121629;
+}
+
+.dark-mode nav a {
+    color: #eebbc3;
+}
+
+.dark-mode nav a:hover {
+    color: #fffffe;
+}
+
+.dark-mode .content h3 h2{
+    background-color: #1c1f32;
+    color: #fffffe;
+}
+
+
+.dark-mode footer {
+    background-color: #121629;
+    color: #eebbc3;
+}
+
+/* Botão de alternância */
+.toggle-btn {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    padding: 10px;
+    background-color: #232946;
+    color: #fffffe;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.toggle-btn:hover {
+    background-color: #eebbc3;
+}
